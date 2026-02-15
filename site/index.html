@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>France m&eacute;dailles &mdash; La France aux JO d'hiver</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Tableau de bord des m&eacute;dailles de la France aux Jeux olympiques d'hiver. Palmar&egrave;s historique depuis 1924, suivi en direct de Milan-Cortina 2026, comparaison &eacute;dition par &eacute;dition." />
+  <meta name="keywords" content="France, m&eacute;dailles, Jeux olympiques, JO hiver, Milan-Cortina 2026, P&eacute;kin 2022, PyeongChang 2018, Sotchi 2014, or, argent, bronze, palmar&egrave;s, r&eacute;sultats, suivi" />
+  <meta name="author" content="France M&eacute;dailles" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0081c8" />
+  <link rel="canonical" href="https://francemedailles.fr" />
+
+  <!-- Open Graph (Facebook, LinkedIn, iMessage, WhatsApp, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="France M&eacute;dailles" />
+  <meta property="og:title" content="France m&eacute;dailles &mdash; La France aux JO d'hiver" />
+  <meta property="og:description" content="Tableau de bord des m&eacute;dailles de la France aux Jeux olympiques d'hiver. Palmar&egrave;s historique et suivi en direct de Milan-Cortina 2026." />
+  <meta property="og:image" content="https://francemedailles.fr/assets/capture.png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="473" />
+  <meta property="og:url" content="https://francemedailles.fr" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="France m&eacute;dailles &mdash; La France aux JO d'hiver" />
+  <meta name="twitter:description" content="Tableau de bord des m&eacute;dailles de la France aux Jeux olympiques d'hiver. Palmar&egrave;s historique et suivi en direct de Milan-Cortina 2026." />
+  <meta name="twitter:image" content="https://francemedailles.fr/assets/capture.png" />
+
+  <!-- Structured Data (Google Rich Results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "France M\u00e9dailles",
+    "url": "https://francemedailles.fr",
+    "description": "Tableau de bord des m\u00e9dailles de la France aux Jeux olympiques d'hiver. Palmar\u00e8s historique depuis 1924 et suivi en direct de Milan-Cortina 2026.",
+    "inLanguage": "fr",
+    "about": {
+      "@type": "SportsEvent",
+      "name": "Jeux olympiques d'hiver",
+      "sport": "Winter Olympics"
+    }
+  }
+  </script>
+
+  <link rel="icon" type="image/png" href="./assets/logo_france_medailles.png" />
+  <link rel="apple-touch-icon" href="./assets/logo_france_medailles.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <img src="./assets/Logo-anneax-olympiques-1024x473.png" alt="Anneaux olympiques" class="hero-rings" />
+    <p class="hero-edition">&Eacute;dition jeux d'hiver</p>
+    <h1>France <em>m&eacute;dailles</em></h1>
+    <p class="standfirst">Un si&egrave;cle de m&eacute;dailles fran&ccedil;aises aux Jeux olympiques d'hiver, racont&eacute; en donn&eacute;es.</p>
+  </header>
+
+  <main class="content">
+
+    <article class="article-block">
+      <div class="article-header">
+        <h2>Un si&egrave;cle de m&eacute;dailles</h2>
+        <div class="olympic-stripe" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="article-intro">Nombre de m&eacute;dailles d'or, d'argent et de bronze obtenues par la France &agrave; chaque &eacute;dition des Jeux d'hiver.</p>
+      </div>
+      <div class="chart-container chart-container--large">
+        <canvas id="chart-editions" aria-label="Graphique : m&eacute;dailles d'or, d'argent et de bronze de la France aux JO d'hiver de 1924 &agrave; 2026" role="img"></canvas>
+      </div>
+      <div class="chart-caption" id="meta-editions"></div>
+    </article>
+
+    <div class="separator">
+      <span class="separator-dot"></span>
+      <span class="separator-dot"></span>
+      <span class="separator-dot"></span>
+    </div>
+
+    <article class="article-block">
+      <div class="article-header">
+        <h2>Les m&eacute;dailles par jour de compétition</h2>
+        <div class="olympic-stripe" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="article-intro">&Eacute;volution jour par jour du nombre de m&eacute;dailles lors des dix derni&egrave;res &eacute;ditions (de 2026 &agrave; 1992).</p>
+      </div>
+      <div class="comparison-list">
+        <div class="comparison-cell">
+          <div class="comparison-head">
+            <h3 class="comparison-title">Total</h3>
+            <div class="comparison-stats" id="stats-j0-total"></div>
+          </div>
+          <div class="chart-container chart-container--medium">
+            <canvas id="chart-j0-total" aria-label="Graphique : total cumul&eacute; des m&eacute;dailles jour par jour, comparaison 2026, 2022, 2018, 2014, 2010, 2006, 2002, 1998, 1994, 1992" role="img"></canvas>
+          </div>
+        </div>
+        <div class="comparison-cell">
+          <div class="comparison-head">
+            <h3 class="comparison-title comparison-title--gold">Or</h3>
+            <div class="medal-showcase" id="medal-showcase-gold"></div>
+            <div class="comparison-stats" id="stats-j0-gold"></div>
+          </div>
+          <div class="chart-container chart-container--medium">
+            <canvas id="chart-j0-gold" aria-label="Graphique : m&eacute;dailles d'or jour par jour, comparaison 2026, 2022, 2018, 2014, 2010, 2006, 2002, 1998, 1994, 1992" role="img"></canvas>
+          </div>
+        </div>
+        <div class="comparison-cell">
+          <div class="comparison-head">
+            <h3 class="comparison-title comparison-title--silver">Argent</h3>
+            <div class="medal-showcase" id="medal-showcase-silver"></div>
+            <div class="comparison-stats" id="stats-j0-silver"></div>
+          </div>
+          <div class="chart-container chart-container--medium">
+            <canvas id="chart-j0-silver" aria-label="Graphique : m&eacute;dailles d'argent jour par jour, comparaison 2026, 2022, 2018, 2014, 2010, 2006, 2002, 1998, 1994, 1992" role="img"></canvas>
+          </div>
+        </div>
+        <div class="comparison-cell">
+          <div class="comparison-head">
+            <h3 class="comparison-title comparison-title--bronze">Bronze</h3>
+            <div class="medal-showcase" id="medal-showcase-bronze"></div>
+            <div class="comparison-stats" id="stats-j0-bronze"></div>
+          </div>
+          <div class="chart-container chart-container--medium">
+            <canvas id="chart-j0-bronze" aria-label="Graphique : m&eacute;dailles de bronze jour par jour, comparaison 2026, 2022, 2018, 2014, 2010, 2006, 2002, 1998, 1994, 1992" role="img"></canvas>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div class="separator">
+      <span class="separator-dot"></span>
+      <span class="separator-dot"></span>
+      <span class="separator-dot"></span>
+    </div>
+
+    <article class="article-block">
+      <div class="article-header">
+        <h2>Les disciplines en or</h2>
+        <div class="olympic-stripe" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="article-intro">R&eacute;partition des m&eacute;dailles fran&ccedil;aises aux JO d'hiver par discipline, depuis 1924.</p>
+      </div>
+      <div id="sport-medals-list" class="sport-medals-list"></div>
+    </article>
+
+    <div class="separator">
+      <span class="separator-dot"></span>
+      <span class="separator-dot"></span>
+      <span class="separator-dot"></span>
+    </div>
+
+    <article class="article-block">
+      <div class="article-header">
+        <h2>Les l&eacute;gendes du froid</h2>
+        <div class="olympic-stripe" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="article-intro">Les athl&egrave;tes fran&ccedil;ais les plus m&eacute;daill&eacute;s de l'histoire des Jeux d'hiver.</p>
+      </div>
+      <div id="top-athletes-list" class="top-athletes-list"></div>
+    </article>
+
+  </main>
+
+  <div class="allez-les-bleus">
+    <span class="flag-fr" aria-hidden="true"></span>
+    <p>Allez les <em>bleus&nbsp;!</em></p>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>Site ind&eacute;pendant &middot; Sources : Olympedia / Kaggle</p>
+      <p id="footer-update"></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

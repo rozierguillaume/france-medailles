@@ -1,0 +1,138 @@
+[
+  {
+    "day_index": 0,
+    "date": "2010-02-12",
+    "gold": 0,
+    "silver": 0,
+    "bronze": 0,
+    "total": 0
+  },
+  {
+    "day_index": 1,
+    "date": "2010-02-13",
+    "gold": 0,
+    "silver": 0,
+    "bronze": 1,
+    "total": 1
+  },
+  {
+    "day_index": 2,
+    "date": "2010-02-14",
+    "gold": 2,
+    "silver": 0,
+    "bronze": 1,
+    "total": 3
+  },
+  {
+    "day_index": 3,
+    "date": "2010-02-15",
+    "gold": 2,
+    "silver": 0,
+    "bronze": 2,
+    "total": 4
+  },
+  {
+    "day_index": 4,
+    "date": "2010-02-16",
+    "gold": 2,
+    "silver": 1,
+    "bronze": 4,
+    "total": 7
+  },
+  {
+    "day_index": 5,
+    "date": "2010-02-17",
+    "gold": 2,
+    "silver": 1,
+    "bronze": 4,
+    "total": 7
+  },
+  {
+    "day_index": 6,
+    "date": "2010-02-18",
+    "gold": 2,
+    "silver": 1,
+    "bronze": 4,
+    "total": 7
+  },
+  {
+    "day_index": 7,
+    "date": "2010-02-19",
+    "gold": 2,
+    "silver": 1,
+    "bronze": 4,
+    "total": 7
+  },
+  {
+    "day_index": 8,
+    "date": "2010-02-20",
+    "gold": 2,
+    "silver": 1,
+    "bronze": 4,
+    "total": 7
+  },
+  {
+    "day_index": 9,
+    "date": "2010-02-21",
+    "gold": 2,
+    "silver": 2,
+    "bronze": 4,
+    "total": 8
+  },
+  {
+    "day_index": 10,
+    "date": "2010-02-22",
+    "gold": 2,
+    "silver": 2,
+    "bronze": 4,
+    "total": 8
+  },
+  {
+    "day_index": 11,
+    "date": "2010-02-23",
+    "gold": 2,
+    "silver": 3,
+    "bronze": 5,
+    "total": 10
+  },
+  {
+    "day_index": 12,
+    "date": "2010-02-24",
+    "gold": 2,
+    "silver": 3,
+    "bronze": 5,
+    "total": 10
+  },
+  {
+    "day_index": 13,
+    "date": "2010-02-25",
+    "gold": 2,
+    "silver": 3,
+    "bronze": 5,
+    "total": 10
+  },
+  {
+    "day_index": 14,
+    "date": "2010-02-26",
+    "gold": 2,
+    "silver": 3,
+    "bronze": 5,
+    "total": 10
+  },
+  {
+    "day_index": 15,
+    "date": "2010-02-27",
+    "gold": 2,
+    "silver": 3,
+    "bronze": 6,
+    "total": 11
+  },
+  {
+    "day_index": 16,
+    "date": "2010-02-28",
+    "gold": 2,
+    "silver": 3,
+    "bronze": 6,
+    "total": 11
+  }
+]

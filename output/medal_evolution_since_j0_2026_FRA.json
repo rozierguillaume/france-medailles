@@ -1,0 +1,74 @@
+[
+  {
+    "day_index": 0,
+    "date": "2026-02-06",
+    "gold": 0,
+    "silver": 0,
+    "bronze": 0,
+    "total": 0
+  },
+  {
+    "day_index": 1,
+    "date": "2026-02-07",
+    "gold": 0,
+    "silver": 0,
+    "bronze": 0,
+    "total": 0
+  },
+  {
+    "day_index": 2,
+    "date": "2026-02-08",
+    "gold": 1,
+    "silver": 1,
+    "bronze": 0,
+    "total": 2
+  },
+  {
+    "day_index": 3,
+    "date": "2026-02-09",
+    "gold": 1,
+    "silver": 1,
+    "bronze": 0,
+    "total": 2
+  },
+  {
+    "day_index": 4,
+    "date": "2026-02-10",
+    "gold": 1,
+    "silver": 2,
+    "bronze": 0,
+    "total": 3
+  },
+    {
+    "day_index": 5,
+    "date": "2026-02-11",
+    "gold": 3,
+    "silver": 3,
+    "bronze": 1,
+    "total": 7
+  },
+  {
+    "day_index": 6,
+    "date": "2026-02-12",
+    "gold": 3,
+    "silver": 4,
+    "bronze": 1,
+    "total": 8
+  },
+  {
+    "day_index": 7,
+    "date": "2026-02-13",
+    "gold": 4,
+    "silver": 5,
+    "bronze": 1,
+    "total": 10
+  },
+  {
+    "day_index": 8,
+    "date": "2026-02-14",
+    "gold": 4,
+    "silver": 6,
+    "bronze": 2,
+    "total": 12
+  }
+]

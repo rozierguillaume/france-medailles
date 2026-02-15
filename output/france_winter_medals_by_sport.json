@@ -1,0 +1,458 @@
+[
+  {
+    "sport": "Alpine Skiing",
+    "gold": 16,
+    "silver": 17,
+    "bronze": 18,
+    "total": 51,
+    "events": [
+      {
+        "event": "Downhill, Men",
+        "gold": 5,
+        "silver": 4,
+        "bronze": 2,
+        "total": 11
+      },
+      {
+        "event": "Slalom, Women",
+        "gold": 2,
+        "silver": 4,
+        "bronze": 2,
+        "total": 8
+      },
+      {
+        "event": "Slalom, Men",
+        "gold": 3,
+        "silver": 2,
+        "bronze": 3,
+        "total": 8
+      },
+      {
+        "event": "Giant Slalom, Men",
+        "gold": 2,
+        "silver": 2,
+        "bronze": 3,
+        "total": 7
+      },
+      {
+        "event": "Giant Slalom, Women",
+        "gold": 1,
+        "silver": 2,
+        "bronze": 3,
+        "total": 6
+      },
+      {
+        "event": "Combined, Men",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 3,
+        "total": 5
+      },
+      {
+        "event": "Downhill, Women",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1,
+        "total": 3
+      },
+      {
+        "event": "Combined, Women",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      },
+      {
+        "event": "Super G, Women",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "total": 1
+      },
+      {
+        "event": "Super G, Men",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Biathlon",
+    "gold": 13,
+    "silver": 8,
+    "bronze": 11,
+    "total": 32,
+    "events": [
+      {
+        "event": "12.5 kilometres Pursuit, Men",
+        "gold": 4,
+        "silver": 1,
+        "bronze": 2,
+        "total": 7
+      },
+      {
+        "event": "4 × 7.5 kilometres Relay, Men",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 3,
+        "total": 4
+      },
+      {
+        "event": "4 × 6 kilometres Relay, Women",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2,
+        "total": 3
+      },
+      {
+        "event": "15 kilometres Mass Start, Men",
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0,
+        "total": 3
+      },
+      {
+        "event": "10 kilometres Sprint, Men",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0,
+        "total": 2
+      },
+      {
+        "event": "20 kilometres, Men",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0,
+        "total": 2
+      },
+      {
+        "event": "7.5 kilometres Sprint, Women",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1,
+        "total": 2
+      },
+      {
+        "event": "10 kilometres Pursuit, Women",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 2,
+        "total": 2
+      },
+      {
+        "event": "2 × 6 kilometres and 2 × 7.5 kilometres Relay, Mixed",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0,
+        "total": 2
+      },
+      {
+        "event": "15 kilometres, Women",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0,
+        "total": 2
+      },
+      {
+        "event": "12.5 kilometres Mass Start, Women",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "total": 1
+      },
+      {
+        "event": "4 × 7.5 kilometres Relay, Women",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      },
+      {
+        "event": "3 × 7.5 kilometres Relay, Women",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Freestyle Skiing",
+    "gold": 3,
+    "silver": 6,
+    "bronze": 6,
+    "total": 15,
+    "events": [
+      {
+        "event": "Moguls, Men",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 2,
+        "total": 4
+      },
+      {
+        "event": "Ski Cross, Men",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 1,
+        "total": 3
+      },
+      {
+        "event": "Halfpipe, Women",
+        "gold": 0,
+        "silver": 2,
+        "bronze": 0,
+        "total": 2
+      },
+      {
+        "event": "Moguls, Women",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1,
+        "total": 2
+      },
+      {
+        "event": "Halfpipe, Men",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      },
+      {
+        "event": "Aerials, Men",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "total": 1
+      },
+      {
+        "event": "Ski Cross, Women",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      },
+      {
+        "event": "Big Air, Women",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Figure Skating",
+    "gold": 4,
+    "silver": 3,
+    "bronze": 7,
+    "total": 14,
+    "events": [
+      {
+        "event": "Ice Dancing, Mixed",
+        "gold": 2,
+        "silver": 2,
+        "bronze": 1,
+        "total": 5
+      },
+      {
+        "event": "Singles, Men",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 4,
+        "total": 5
+      },
+      {
+        "event": "Pairs, Mixed",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 1,
+        "total": 3
+      },
+      {
+        "event": "Singles, Women",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Snowboarding",
+    "gold": 4,
+    "silver": 5,
+    "bronze": 4,
+    "total": 13,
+    "events": [
+      {
+        "event": "Cross, Men",
+        "gold": 2,
+        "silver": 0,
+        "bronze": 2,
+        "total": 4
+      },
+      {
+        "event": "Cross, Women",
+        "gold": 0,
+        "silver": 3,
+        "bronze": 1,
+        "total": 4
+      },
+      {
+        "event": "Parallel Giant Slalom, Women",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0,
+        "total": 2
+      },
+      {
+        "event": "Halfpipe, Women",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "total": 1
+      },
+      {
+        "event": "Giant Slalom, Women",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "total": 1
+      },
+      {
+        "event": "Parallel Giant Slalom, Men",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Cross Country Skiing",
+    "gold": 0,
+    "silver": 1,
+    "bronze": 4,
+    "total": 5,
+    "events": [
+      {
+        "event": "4 × 10 kilometres Relay, Men",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 3,
+        "total": 3
+      },
+      {
+        "event": "Team Sprint, Men",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      },
+      {
+        "event": "Sprint, Men",
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Nordic Combined",
+    "gold": 2,
+    "silver": 1,
+    "bronze": 1,
+    "total": 4,
+    "events": [
+      {
+        "event": "Individual, Men",
+        "gold": 1,
+        "silver": 1,
+        "bronze": 0,
+        "total": 2
+      },
+      {
+        "event": "Team, Men",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      },
+      {
+        "event": "Normal Hill / 10 km, Individual, Men",
+        "gold": 1,
+        "silver": 0,
+        "bronze": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Military Ski Patrol",
+    "gold": 0,
+    "silver": 0,
+    "bronze": 1,
+    "total": 1,
+    "events": [
+      {
+        "event": "Military Ski Patrol, Men",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Bobsleigh",
+    "gold": 0,
+    "silver": 0,
+    "bronze": 1,
+    "total": 1,
+    "events": [
+      {
+        "event": "Four, Men",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Ski Jumping",
+    "gold": 0,
+    "silver": 0,
+    "bronze": 1,
+    "total": 1,
+    "events": [
+      {
+        "event": "Normal Hill, Individual, Women",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "sport": "Curling",
+    "gold": 0,
+    "silver": 0,
+    "bronze": 1,
+    "total": 1,
+    "events": [
+      {
+        "event": "Curling, Men",
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1,
+        "total": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "day_index": 0,
+    "date": "2022-02-02",
+    "gold": 1,
+    "silver": 1,
+    "bronze": 1,
+    "total": 3
+  },
+  {
+    "day_index": 1,
+    "date": "2022-02-03",
+    "gold": 4,
+    "silver": 4,
+    "bronze": 4,
+    "total": 12
+  },
+  {
+    "day_index": 2,
+    "date": "2022-02-04",
+    "gold": 5,
+    "silver": 5,
+    "bronze": 5,
+    "total": 15
+  },
+  {
+    "day_index": 3,
+    "date": "2022-02-05",
+    "gold": 15,
+    "silver": 15,
+    "bronze": 15,
+    "total": 45
+  },
+  {
+    "day_index": 4,
+    "date": "2022-02-06",
+    "gold": 18,
+    "silver": 18,
+    "bronze": 18,
+    "total": 54
+  },
+  {
+    "day_index": 5,
+    "date": "2022-02-07",
+    "gold": 26,
+    "silver": 26,
+    "bronze": 26,
+    "total": 78
+  },
+  {
+    "day_index": 6,
+    "date": "2022-02-08",
+    "gold": 34,
+    "silver": 34,
+    "bronze": 34,
+    "total": 102
+  },
+  {
+    "day_index": 7,
+    "date": "2022-02-09",
+    "gold": 45,
+    "silver": 45,
+    "bronze": 45,
+    "total": 135
+  },
+  {
+    "day_index": 8,
+    "date": "2022-02-10",
+    "gold": 53,
+    "silver": 53,
+    "bronze": 53,
+    "total": 159
+  },
+  {
+    "day_index": 9,
+    "date": "2022-02-11",
+    "gold": 61,
+    "silver": 61,
+    "bronze": 61,
+    "total": 183
+  },
+  {
+    "day_index": 10,
+    "date": "2022-02-12",
+    "gold": 67,
+    "silver": 67,
+    "bronze": 67,
+    "total": 201
+  },
+  {
+    "day_index": 11,
+    "date": "2022-02-13",
+    "gold": 76,
+    "silver": 76,
+    "bronze": 76,
+    "total": 228
+  },
+  {
+    "day_index": 12,
+    "date": "2022-02-14",
+    "gold": 81,
+    "silver": 81,
+    "bronze": 81,
+    "total": 243
+  },
+  {
+    "day_index": 13,
+    "date": "2022-02-15",
+    "gold": 87,
+    "silver": 87,
+    "bronze": 87,
+    "total": 261
+  },
+  {
+    "day_index": 14,
+    "date": "2022-02-16",
+    "gold": 92,
+    "silver": 92,
+    "bronze": 92,
+    "total": 276
+  },
+  {
+    "day_index": 15,
+    "date": "2022-02-17",
+    "gold": 98,
+    "silver": 98,
+    "bronze": 99,
+    "total": 295
+  },
+  {
+    "day_index": 16,
+    "date": "2022-02-18",
+    "gold": 104,
+    "silver": 104,
+    "bronze": 105,
+    "total": 313
+  },
+  {
+    "day_index": 17,
+    "date": "2022-02-19",
+    "gold": 108,
+    "silver": 108,
+    "bronze": 109,
+    "total": 325
+  },
+  {
+    "day_index": 18,
+    "date": "2022-02-20",
+    "gold": 110,
+    "silver": 110,
+    "bronze": 111,
+    "total": 331
+  }
+]
