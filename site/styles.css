@@ -619,6 +619,27 @@ h1 em {
   color: var(--text-muted);
 }
 
+.footer-contribute {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-contribute:hover {
+  color: var(--accent);
+}
+
+.footer-contribute svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
 .footer code {
   font-size: 0.8rem;
   background: #f0eeeb;
