@@ -278,6 +278,11 @@ async function loadJSON(path) {
 function buildEditionChart(data) {
   const ctx = document.getElementById("chart-editions");
   const labels = data.map((r) => r.year);
+  const latestEditionIndex = Math.max(0, data.length - 1);
+
+  function withEditionOpacity(color) {
+    return data.map((_, index) => hexToRgba(color, index === latestEditionIndex ? 1 : 0.7));
+  }
 
   return new Chart(ctx, {
     type: "bar",
@@ -287,22 +292,22 @@ function buildEditionChart(data) {
         {
           label: "Or",
           data: data.map((r) => r.gold),
-          backgroundColor: COLORS.gold,
-          hoverBackgroundColor: hexToRgba(COLORS.gold, 0.75),
+          backgroundColor: withEditionOpacity(COLORS.gold),
+          hoverBackgroundColor: withEditionOpacity(COLORS.gold),
           stack: "medals",
         },
         {
           label: "Argent",
           data: data.map((r) => r.silver),
-          backgroundColor: COLORS.silver,
-          hoverBackgroundColor: hexToRgba(COLORS.silver, 0.75),
+          backgroundColor: withEditionOpacity(COLORS.silver),
+          hoverBackgroundColor: withEditionOpacity(COLORS.silver),
           stack: "medals",
         },
         {
           label: "Bronze",
           data: data.map((r) => r.bronze),
-          backgroundColor: COLORS.bronze,
-          hoverBackgroundColor: hexToRgba(COLORS.bronze, 0.75),
+          backgroundColor: withEditionOpacity(COLORS.bronze),
+          hoverBackgroundColor: withEditionOpacity(COLORS.bronze),
           stack: "medals",
         },
       ],
