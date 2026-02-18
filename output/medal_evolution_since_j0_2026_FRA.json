@@ -78,5 +78,21 @@
     "silver": 7,
     "bronze": 4,
     "total": 15
+  },
+  {
+    "day_index": 10,
+    "date": "2026-02-16",
+    "gold": 4,
+    "silver": 7,
+    "bronze": 4,
+    "total": 15
+  },
+  {
+    "day_index": 11,
+    "date": "2026-02-17",
+    "gold": 5,
+    "silver": 7,
+    "bronze": 4,
+    "total": 16
   }
 ]
