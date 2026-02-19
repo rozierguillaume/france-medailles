@@ -211,7 +211,7 @@ function exportChart(canvas, titleText, subtitleText) {
   ctx.fillText("francemedailles.fr", wmX + stripeW + wmGap, wmY);
 
   const link = document.createElement("a");
-  link.download = "france-medailles-" + titleText.toLowerCase().replace(/[^a-z0-9]+/g, "-") + ".png";
+  link.download = "france-medailles-" + slugify(titleText) + ".png";
   link.href = tmp.toDataURL("image/png");
   link.click();
 }
@@ -727,6 +727,15 @@ function setMeta(elementId, lines) {
     span.textContent = line;
     container.appendChild(span);
   });
+}
+
+function slugify(str) {
+  return str
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 async function init() {
