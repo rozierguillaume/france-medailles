@@ -94,5 +94,13 @@
     "silver": 7,
     "bronze": 4,
     "total": 16
+  },
+  {
+    "day_index": 12,
+    "date": "2026-02-18",
+    "gold": 6,
+    "silver": 7,
+    "bronze": 4,
+    "total": 17
   }
 ]
